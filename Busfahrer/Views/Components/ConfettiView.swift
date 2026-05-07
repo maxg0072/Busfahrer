@@ -2,83 +2,91 @@ import SwiftUI
 
 struct ConfettiView: View {
     @State private var particles: [ConfettiParticle] = []
+    @State private var expired = false
 
     var body: some View {
-        TimelineView(.animation) { timeline in
-            Canvas { context, size in
-                let now = timeline.date.timeIntervalSinceReferenceDate
-                for particle in particles {
-                    let elapsed = now - particle.startTime
-                    guard elapsed > 0, elapsed < particle.lifetime else { continue }
+        if !expired {
+            GeometryReader { geo in
+                TimelineView(.animation) { timeline in
+                    Canvas { context, size in
+                        let now = timeline.date.timeIntervalSinceReferenceDate
+                        for particle in particles {
+                            let elapsed = now - particle.startTime
+                            guard elapsed > 0, elapsed < particle.lifetime else { continue }
 
-                    let progress = elapsed / particle.lifetime
+                            let progress = elapsed / particle.lifetime
 
-                    // Initial upward burst then gravity fall
-                    let burstY = particle.initialVelocityY * elapsed
-                    let gravityY = 0.5 * particle.gravity * elapsed * elapsed
-                    let y = particle.startY + burstY + gravityY
+                            // Initial upward burst then gravity fall
+                            let burstY = particle.initialVelocityY * elapsed
+                            let gravityY = 0.5 * particle.gravity * elapsed * elapsed
+                            let y = particle.startY + burstY + gravityY
 
-                    let x = particle.startX + sin(elapsed * particle.wobbleSpeed) * particle.wobbleAmount
+                            let x = particle.startX + sin(elapsed * particle.wobbleSpeed) * particle.wobbleAmount
 
-                    // Fade in final 20%
-                    let opacity = progress > 0.8 ? 1.0 - ((progress - 0.8) / 0.2) : 1.0
+                            // Fade in final 20%
+                            let opacity = progress > 0.8 ? 1.0 - ((progress - 0.8) / 0.2) : 1.0
 
-                    guard y < size.height + 20, opacity > 0.01 else { continue }
+                            guard y < size.height + 20, opacity > 0.01 else { continue }
 
-                    let rotation = elapsed * particle.rotationSpeed
+                            let rotation = elapsed * particle.rotationSpeed
 
-                    context.opacity = opacity
+                            context.opacity = opacity
 
-                    switch particle.shape {
-                    case .rectangle:
-                        var transform = CGAffineTransform(translationX: x, y: y)
-                            .rotated(by: rotation)
-                        let rect = CGRect(
-                            x: -particle.size / 2,
-                            y: -particle.size * 0.3,
-                            width: particle.size,
-                            height: particle.size * 0.6
-                        )
-                        var path = Path(roundedRect: rect, cornerRadius: 2)
-                        path = path.applying(transform)
-                        context.fill(path, with: .color(particle.color))
+                            switch particle.shape {
+                            case .rectangle:
+                                let transform = CGAffineTransform(translationX: x, y: y)
+                                    .rotated(by: rotation)
+                                let rect = CGRect(
+                                    x: -particle.size / 2,
+                                    y: -particle.size * 0.3,
+                                    width: particle.size,
+                                    height: particle.size * 0.6
+                                )
+                                var path = Path(roundedRect: rect, cornerRadius: 2)
+                                path = path.applying(transform)
+                                context.fill(path, with: .color(particle.color))
 
-                    case .circle:
-                        let rect = CGRect(
-                            x: x - particle.size / 2,
-                            y: y - particle.size / 2,
-                            width: particle.size,
-                            height: particle.size
-                        )
-                        context.fill(Path(ellipseIn: rect), with: .color(particle.color))
+                            case .circle:
+                                let rect = CGRect(
+                                    x: x - particle.size / 2,
+                                    y: y - particle.size / 2,
+                                    width: particle.size,
+                                    height: particle.size
+                                )
+                                context.fill(Path(ellipseIn: rect), with: .color(particle.color))
 
-                    case .triangle:
-                        var path = Path()
-                        let s = particle.size
-                        path.move(to: .init(x: 0, y: -s / 2))
-                        path.addLine(to: .init(x: s / 2, y: s / 2))
-                        path.addLine(to: .init(x: -s / 2, y: s / 2))
-                        path.closeSubpath()
-                        let transform = CGAffineTransform(translationX: x, y: y)
-                            .rotated(by: rotation)
-                        path = path.applying(transform)
-                        context.fill(path, with: .color(particle.color))
+                            case .triangle:
+                                var path = Path()
+                                let s = particle.size
+                                path.move(to: .init(x: 0, y: -s / 2))
+                                path.addLine(to: .init(x: s / 2, y: s / 2))
+                                path.addLine(to: .init(x: -s / 2, y: s / 2))
+                                path.closeSubpath()
+                                let transform = CGAffineTransform(translationX: x, y: y)
+                                    .rotated(by: rotation)
+                                path = path.applying(transform)
+                                context.fill(path, with: .color(particle.color))
+                            }
+                        }
+                    }
+                }
+                .onAppear {
+                    generateParticles(screenWidth: geo.size.width)
+                    // Auto-expire after max particle lifetime + stagger to stop TimelineView
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 7.5) {
+                        expired = true
                     }
                 }
             }
         }
-        .onAppear {
-            generateParticles()
-        }
     }
 
-    private func generateParticles() {
+    private func generateParticles(screenWidth: Double) {
         let colors: [Color] = [
             Theme.phase1Color, Theme.phase2Color, Theme.accentGreen, Theme.gold,
             Theme.correct, .yellow, .orange, .pink
         ]
         let shapes: [ConfettiShape] = [.rectangle, .circle, .triangle]
-        let screenWidth = UIScreen.main.bounds.width
 
         particles = (0..<100).map { _ in
             ConfettiParticle(

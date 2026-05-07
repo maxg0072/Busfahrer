@@ -3,40 +3,56 @@ import SwiftUI
 struct SparkleEffectView: View {
     let color: Color
     let count: Int
+    var duration: Double = 3.0
 
-    init(color: Color = .yellow, count: Int = 30) {
+    init(color: Color = .yellow, count: Int = 30, duration: Double = 3.0) {
         self.color = color
         self.count = count
+        self.duration = duration
     }
 
     @State private var sparkles: [Sparkle] = []
+    @State private var expired = false
 
     var body: some View {
-        TimelineView(.animation) { timeline in
-            Canvas { context, size in
-                let now = timeline.date.timeIntervalSinceReferenceDate
-                for sparkle in sparkles {
-                    let elapsed = now - sparkle.startTime
-                    let cycle = elapsed * sparkle.speed
-                    let pulse = (sin(cycle) + 1) / 2  // 0...1
-                    let opacity = pulse * sparkle.maxOpacity
+        if !expired {
+            TimelineView(.animation) { timeline in
+                Canvas { context, size in
+                    let now = timeline.date.timeIntervalSinceReferenceDate
+                    for sparkle in sparkles {
+                        let elapsed = now - sparkle.startTime
+                        let life = elapsed / duration
+                        guard life < 1.0 else { continue }
 
-                    guard opacity > 0.01 else { continue }
+                        let cycle = elapsed * sparkle.speed
+                        let pulse = (sin(cycle) + 1) / 2  // 0...1
+                        // Fade out in final 30%
+                        let fadeOut = life > 0.7 ? 1.0 - ((life - 0.7) / 0.3) : 1.0
+                        let opacity = pulse * sparkle.maxOpacity * fadeOut
 
-                    let x = sparkle.x * size.width
-                    let y = sparkle.y * size.height
-                    let starSize = sparkle.size * (0.5 + pulse * 0.5)
+                        guard opacity > 0.01 else { continue }
 
-                    context.opacity = opacity
-                    context.fill(
-                        beerMugPath(at: CGPoint(x: x, y: y), size: starSize),
-                        with: .color(sparkle.color)
-                    )
+                        let x = sparkle.x * size.width
+                        let y = sparkle.y * size.height
+                        let starSize = sparkle.size * (0.5 + pulse * 0.5)
+
+                        context.opacity = opacity
+                        context.fill(
+                            beerMugPath(at: CGPoint(x: x, y: y), size: starSize),
+                            with: .color(sparkle.color)
+                        )
+                    }
                 }
             }
+            .onAppear {
+                generateSparkles()
+                // Auto-expire after duration to stop the TimelineView
+                DispatchQueue.main.asyncAfter(deadline: .now() + duration + 0.5) {
+                    expired = true
+                }
+            }
+            .allowsHitTesting(false)
         }
-        .onAppear { generateSparkles() }
-        .allowsHitTesting(false)
     }
 
     private func beerMugPath(at center: CGPoint, size: CGFloat) -> Path {

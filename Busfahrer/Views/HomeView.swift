@@ -12,7 +12,7 @@ struct HomeView: View {
 
     // Game data
     struct GameItem: Identifiable {
-        let id = UUID()
+        var id: GameType { type }
         let type: GameType
         let title: String
         let subtitle: String

@@ -130,7 +130,7 @@ struct ContentView: View {
                     FTDGameOverView()
                 }
             }
-            .animation(Theme.springSmooth, value: game.phase)
+            .transaction { $0.animation = nil } // Phase transitions handled by individual views
 
             // In-game header: game title + close button (Splash-style)
             if showMenuButton {
