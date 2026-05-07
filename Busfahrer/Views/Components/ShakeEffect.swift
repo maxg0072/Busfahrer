@@ -30,7 +30,8 @@ private struct ShakeModifier: ViewModifier {
                     withAnimation(.linear(duration: 0.4)) {
                         shakeAmount = 1
                     }
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    Task {
+                        try? await Task.sleep(for: .milliseconds(500))
                         shakeAmount = 0
                     }
                 }

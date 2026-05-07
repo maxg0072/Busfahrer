@@ -93,12 +93,11 @@ struct FTDGameOverView: View {
             .padding(.bottom, Theme.buttonBottomPadding)
             .opacity(appear ? 1.0 : 0.0)
         }
-        .onAppear {
+        .task {
             withAnimation(Theme.springDramatic) { appear = true }
             HapticManager.celebration()
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                withAnimation { showEmojiExplosion = true }
-            }
+            try? await Task.sleep(for: .milliseconds(300))
+            withAnimation { showEmojiExplosion = true }
         }
 
             if showEmojiExplosion {

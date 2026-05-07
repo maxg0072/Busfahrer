@@ -109,7 +109,7 @@ struct BusDriverRevealView: View {
                 .opacity(showResult ? 1.0 : 0.0)
             }
         }
-        .onAppear {
+        .task {
             HapticManager.celebration()
             withAnimation(.spring(response: 0.8, dampingFraction: 0.6).delay(0.3)) {
                 showResult = true
@@ -117,12 +117,11 @@ struct BusDriverRevealView: View {
             withAnimation(Theme.springSmooth.delay(0.5)) {
                 showSparkles = true
             }
-            // Emoji explosion after reveal
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                withAnimation { showEmojiExplosion = true }
-            }
+            try? await Task.sleep(for: .milliseconds(500))
+            withAnimation { showEmojiExplosion = true }
             // Name pulse breathing
-            withAnimation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true).delay(1.0)) {
+            try? await Task.sleep(for: .milliseconds(500))
+            withAnimation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true)) {
                 namePulse = true
             }
         }

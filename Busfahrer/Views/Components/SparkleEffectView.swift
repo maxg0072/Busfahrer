@@ -44,12 +44,10 @@ struct SparkleEffectView: View {
                     }
                 }
             }
-            .onAppear {
+            .task {
                 generateSparkles()
-                // Auto-expire after duration to stop the TimelineView
-                DispatchQueue.main.asyncAfter(deadline: .now() + duration + 0.5) {
-                    expired = true
-                }
+                try? await Task.sleep(for: .milliseconds(Int(duration * 1000) + 500))
+                expired = true
             }
             .allowsHitTesting(false)
         }

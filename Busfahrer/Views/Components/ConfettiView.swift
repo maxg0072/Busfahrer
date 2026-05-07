@@ -70,12 +70,10 @@ struct ConfettiView: View {
                         }
                     }
                 }
-                .onAppear {
+                .task {
                     generateParticles(screenWidth: geo.size.width)
-                    // Auto-expire after max particle lifetime + stagger to stop TimelineView
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 7.5) {
-                        expired = true
-                    }
+                    try? await Task.sleep(for: .milliseconds(7500))
+                    expired = true
                 }
             }
         }

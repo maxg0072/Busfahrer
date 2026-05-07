@@ -1,7 +1,7 @@
 import SwiftUI
 
-@Observable
-final class LanguageManager: @unchecked Sendable {
+@MainActor @Observable
+final class LanguageManager {
     static let shared = LanguageManager()
 
     var current: AppLanguage {

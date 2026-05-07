@@ -71,14 +71,15 @@ struct CardGuessView: View {
             .padding(.horizontal, Theme.padding)
         }
         .animation(Theme.springBouncy, value: appear)
-        .onAppear {
+        .task(id: "\(round)-\(playerIndex)") {
             appear = false
             cardBreathing = false
             withAnimation(Theme.springBouncy) {
                 appear = true
             }
             // Start card breathing after entrance
-            withAnimation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true).delay(0.6)) {
+            try? await Task.sleep(for: .milliseconds(600))
+            withAnimation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true)) {
                 cardBreathing = true
             }
         }

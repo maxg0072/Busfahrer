@@ -5,15 +5,20 @@ struct AnimatedBackgroundView: View {
 
     @State private var breathe = false
 
+    private var isBlack: Bool {
+        colors.first == .black || colors.isEmpty
+    }
+
     var body: some View {
         Group {
-            if colors.first == .black || colors.isEmpty {
+            if isBlack {
                 // Black base for home/setup/settings/end screens
                 Color.black
             } else {
                 // Solid phase color with animated radial gradient
                 ZStack {
-                    colors.first ?? Theme.phase1Color
+                    (colors.first ?? Theme.phase1Color)
+                        .animation(.easeInOut(duration: 0.6), value: colors.first)
 
                     RadialGradient(
                         colors: [

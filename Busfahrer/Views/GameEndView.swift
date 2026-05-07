@@ -163,17 +163,15 @@ struct GameEndView: View {
                     .transition(.opacity)
             }
         }
-        .onAppear {
+        .task {
             showConfetti = true
             showSparkles = true
             HapticManager.celebration()
             withAnimation(Theme.springDramatic) {
                 appear = true
             }
-            // Delayed emoji explosion for extra impact
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                withAnimation { showEmojiExplosion = true }
-            }
+            try? await Task.sleep(for: .milliseconds(300))
+            withAnimation { showEmojiExplosion = true }
         }
     }
 

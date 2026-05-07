@@ -136,29 +136,21 @@ struct Phase1View: View {
             .buttonStyle(PressableButtonStyle())
             .padding(.horizontal, Theme.padding)
         }
-        .onAppear {
+        .task(id: "\(round)-\(playerIndex)-\(isCorrect)") {
             if isCorrect {
                 HapticManager.correct()
-                // Sparkles
                 withAnimation { showSparkles = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    withAnimation { showSparkles = false }
-                }
-                // Emoji explosion
                 withAnimation { showEmojiExplosion = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    showEmojiExplosion = false
-                }
+                try? await Task.sleep(for: .milliseconds(1500))
+                withAnimation { showSparkles = false }
+                showEmojiExplosion = false
             } else {
                 HapticManager.dangerBuzz()
-                // Shake
                 withAnimation(.linear(duration: 0.4)) { showShake = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { showShake = false }
-                // Red flash
                 withAnimation(.easeIn(duration: 0.1)) { showRedFlash = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    withAnimation(.easeOut(duration: 0.3)) { showRedFlash = false }
-                }
+                try? await Task.sleep(for: .milliseconds(500))
+                showShake = false
+                withAnimation(.easeOut(duration: 0.3)) { showRedFlash = false }
             }
         }
     }

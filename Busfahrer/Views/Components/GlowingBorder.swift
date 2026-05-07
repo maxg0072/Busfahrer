@@ -5,6 +5,7 @@ struct GlowingBorder: ViewModifier {
     var lineWidth: CGFloat = 2
     var glowRadius: CGFloat = 8
     var cornerRadius: CGFloat = 12
+    var animated: Bool = true
 
     @State private var pulse = false
 
@@ -17,6 +18,7 @@ struct GlowingBorder: ViewModifier {
                     .shadow(color: color.opacity(pulse ? 0.3 : 0.1), radius: glowRadius * 2)
             )
             .onAppear {
+                guard animated else { return }
                 withAnimation(.easeInOut(duration: 1.2).repeatForever(autoreverses: true)) {
                     pulse = true
                 }

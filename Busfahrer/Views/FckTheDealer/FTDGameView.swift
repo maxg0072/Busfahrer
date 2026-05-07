@@ -152,7 +152,7 @@ struct FTDGameView: View {
             Spacer()
         }
         .animation(Theme.springBouncy, value: appear)
-        .onAppear {
+        .task(id: "guess-\(isSecondGuess)-\(game.ftdCardsPlayed)") {
             appear = false
             withAnimation(Theme.springBouncy) {
                 appear = true
@@ -214,14 +214,14 @@ struct FTDGameView: View {
             .opacity(hintAppear ? 1 : 0)
         }
         .animation(Theme.springBouncy, value: hintAppear)
-        .onAppear {
+        .task(id: "hint-\(game.ftdCardsPlayed)") {
             hintAppear = false
             hintBounce = false
             withAnimation(Theme.springBouncy) {
                 hintAppear = true
             }
-            // Bouncing arrow animation
-            withAnimation(.easeInOut(duration: 0.6).repeatForever(autoreverses: true).delay(0.5)) {
+            try? await Task.sleep(for: .milliseconds(500))
+            withAnimation(.easeInOut(duration: 0.6).repeatForever(autoreverses: true)) {
                 hintBounce = true
             }
         }
@@ -300,7 +300,7 @@ struct FTDGameView: View {
             .opacity(revealAppear ? 1 : 0)
         }
         .animation(Theme.springBouncy, value: revealAppear)
-        .onAppear {
+        .task(id: "reveal-\(isCorrect)-\(game.ftdCardsPlayed)") {
             revealAppear = false
             withAnimation(Theme.springBouncy) {
                 revealAppear = true
@@ -308,17 +308,15 @@ struct FTDGameView: View {
             if isCorrect {
                 HapticManager.correct()
                 withAnimation { showEmojiExplosion = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    showEmojiExplosion = false
-                }
+                try? await Task.sleep(for: .milliseconds(1500))
+                showEmojiExplosion = false
             } else {
                 HapticManager.dangerBuzz()
                 withAnimation(.linear(duration: 0.4)) { showShake = true }
                 withAnimation(.easeIn(duration: 0.1)) { showRedFlash = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { showShake = false }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    withAnimation(.easeOut(duration: 0.3)) { showRedFlash = false }
-                }
+                try? await Task.sleep(for: .milliseconds(500))
+                showShake = false
+                withAnimation(.easeOut(duration: 0.3)) { showRedFlash = false }
             }
         }
     }
@@ -335,9 +333,12 @@ struct FTDGameView: View {
         }
     }
 
+    private var discardCounts: [Int: Int] {
+        Dictionary(game.ftdDiscardedValues.map { ($0, 1) }, uniquingKeysWith: +)
+    }
+
     private var discardSummary: some View {
-        // Show which values have been seen
-        let counts = Dictionary(grouping: game.ftdDiscardedValues, by: { $0 }).mapValues { $0.count }
+        let counts = discardCounts
 
         return HStack(spacing: 4) {
             ForEach(cardValues, id: \.value) { cv in

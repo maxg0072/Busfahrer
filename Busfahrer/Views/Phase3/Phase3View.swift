@@ -245,9 +245,8 @@ struct Phase3View: View {
             .padding(.horizontal, Theme.padding)
         }
         .animation(Theme.springBouncy, value: guessAppear)
-        .onAppear {
+        .task(id: "\(round)-\(attempt)") {
             guessAppear = false
-            // Tension haptic before showing the card
             if game.phase3TotalAttempts > 0 {
                 HapticManager.tensionBuild(duration: 0.6)
             }
@@ -310,29 +309,26 @@ struct Phase3View: View {
             .buttonStyle(PressableButtonStyle())
             .padding(.horizontal, Theme.padding)
         }
-        .onAppear {
+        .task(id: "\(round)-\(isCorrect)") {
             if isCorrect {
                 HapticManager.correct()
                 withAnimation { showSparkles = true }
                 withAnimation { showEmojiExplosion = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    withAnimation { showSparkles = false }
-                    showEmojiExplosion = false
-                }
-                // Round 4 correct = massive celebration
                 if round >= 4 {
                     HapticManager.celebration()
                     withAnimation { showConfetti = true }
                 }
+                try? await Task.sleep(for: .milliseconds(1500))
+                withAnimation { showSparkles = false }
+                showEmojiExplosion = false
             } else {
                 HapticManager.dangerBuzz()
-                // Simultaneous punishment stack: shake + flash + haptic
                 withAnimation(.linear(duration: 0.4)) { showShake = true }
                 withAnimation(.easeIn(duration: 0.1)) { showRedFlash = true }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { showShake = false }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-                    withAnimation(.easeOut(duration: 0.4)) { showRedFlash = false }
-                }
+                try? await Task.sleep(for: .milliseconds(500))
+                showShake = false
+                try? await Task.sleep(for: .milliseconds(100))
+                withAnimation(.easeOut(duration: 0.4)) { showRedFlash = false }
             }
         }
     }
