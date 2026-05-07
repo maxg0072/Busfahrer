@@ -235,7 +235,9 @@ struct KingsCupGameView: View {
                     if card.value == .drei {
                         Text("\(p.name) \(Strings.sips.drinksCount(3))")
                             .font(Theme.bodyFont)
-                            .foregroundStyle(Theme.accentRed)
+                            .foregroundStyle(.white)
+                            .shadow(color: Theme.accentRed, radius: 6)
+                            .shadow(color: .black.opacity(0.5), radius: 3, y: 1)
                     }
                 }
             }

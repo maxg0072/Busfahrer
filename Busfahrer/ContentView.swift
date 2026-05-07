@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @Environment(GameViewModel.self) private var game
     @State private var showMenu = false
+    @State private var showRules = false
 
     private var showMenuButton: Bool {
         switch game.phase {
@@ -132,7 +133,7 @@ struct ContentView: View {
             }
             .transaction { $0.animation = nil } // Phase transitions handled by individual views
 
-            // In-game header: game title + close button (Splash-style)
+            // In-game header: rules button + game title + close button (Splash-style)
             if showMenuButton {
                 VStack {
                     HStack {
@@ -141,6 +142,16 @@ struct ContentView: View {
                             .font(Theme.calloutFont)
                             .foregroundStyle(.white.opacity(0.8))
                         Spacer()
+                    }
+                    .overlay(alignment: .leading) {
+                        CircleIconButton(
+                            systemName: "questionmark",
+                            size: 36,
+                            bgColor: Color.white.opacity(0.15)
+                        ) {
+                            showRules = true
+                        }
+                        .padding(.leading, Theme.padding)
                     }
                     .overlay(alignment: .trailing) {
                         CircleIconButton(
@@ -155,6 +166,18 @@ struct ContentView: View {
                     .padding(.top, 8)
                     Spacer()
                 }
+            }
+        }
+        .sheet(isPresented: $showRules) {
+            switch game.currentGame {
+            case .busfahrer:
+                RulesView()
+            case .pferderennen:
+                PferderennenRulesView()
+            case .kingsCup:
+                KingsCupRulesView()
+            case .fckTheDealer:
+                FTDRulesView()
             }
         }
         .sheet(isPresented: $showMenu) {

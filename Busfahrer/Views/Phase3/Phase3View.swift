@@ -266,19 +266,23 @@ struct Phase3View: View {
 
             Text(isCorrect ? Strings.common.correct : Strings.common.wrong)
                 .font(Theme.titleFont)
-                .foregroundStyle(isCorrect ? Theme.accentGreen : Theme.accentRed)
+                .foregroundStyle(isCorrect ? Theme.accentGreen : .white)
+                .shadow(color: isCorrect ? .clear : Theme.accentRed, radius: 8)
+                .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
             if !isCorrect {
                 // Dramatic sip penalty counter
                 Text("+\(round)")
                     .font(.system(size: 48, weight: .black, design: .rounded))
-                    .foregroundStyle(Theme.accentRed)
-                    .shadow(color: Theme.accentRed.opacity(0.6), radius: 12)
+                    .foregroundStyle(.white)
+                    .shadow(color: Theme.accentRed, radius: 12)
+                    .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
                     .contentTransition(.numericText())
 
                 Text(Strings.phase3.wrongMessage(round))
                     .font(Theme.bodyFont)
-                    .foregroundStyle(.white.opacity(0.85))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, Theme.padding)
             } else if round >= 4 {

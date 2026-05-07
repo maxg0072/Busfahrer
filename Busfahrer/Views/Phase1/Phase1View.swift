@@ -101,7 +101,9 @@ struct Phase1View: View {
             // Result text with color
             Text(isCorrect ? Strings.common.correct : Strings.common.wrong)
                 .font(Theme.titleFont)
-                .foregroundStyle(isCorrect ? Theme.accentGreen : Theme.accentRed)
+                .foregroundStyle(isCorrect ? Theme.accentGreen : .white)
+                .shadow(color: isCorrect ? .clear : Theme.accentRed, radius: 8)
+                .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
             // Sip info with animated counter
             VStack(spacing: 6) {
@@ -109,15 +111,17 @@ struct Phase1View: View {
                      ? Strings.sips.canDistribute(player.name, round)
                      : Strings.sips.mustDrink(player.name, round))
                     .font(Theme.bodyFont)
-                    .foregroundStyle(.white.opacity(0.8))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .shadow(color: .black.opacity(0.4), radius: 3, y: 1)
                     .multilineTextAlignment(.center)
 
                 // Animated sip number
                 Text("\(round)")
                     .font(.system(size: 42, weight: .black, design: .rounded))
-                    .foregroundStyle(isCorrect ? Theme.accentGreen : Theme.accentRed)
+                    .foregroundStyle(isCorrect ? Theme.accentGreen : .white)
                     .contentTransition(.numericText())
-                    .shadow(color: (isCorrect ? Theme.accentGreen : Theme.accentRed).opacity(0.5), radius: 8)
+                    .shadow(color: (isCorrect ? Theme.accentGreen : Theme.accentRed).opacity(0.7), radius: 10)
+                    .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
             }
             .padding(.horizontal, Theme.padding)
 

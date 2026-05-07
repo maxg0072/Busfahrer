@@ -263,7 +263,9 @@ struct FTDGameView: View {
                         let diff = abs(guess2 - card.value.rawValue)
                         Text(Strings.ftd.wrongBothGuesses(guesser.name, diff))
                             .font(Theme.headlineFont)
-                            .foregroundStyle(Theme.accentRed)
+                            .foregroundStyle(.white)
+                            .shadow(color: Theme.accentRed, radius: 8)
+                            .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
                             .multilineTextAlignment(.center)
                             .opacity(revealAppear ? 1 : 0)
 
@@ -271,8 +273,9 @@ struct FTDGameView: View {
                         if diff > 0 {
                             Text("\(diff)")
                                 .font(.system(size: 42, weight: .black, design: .rounded))
-                                .foregroundStyle(Theme.accentRed)
-                                .shadow(color: Theme.accentRed.opacity(0.5), radius: 8)
+                                .foregroundStyle(.white)
+                                .shadow(color: Theme.accentRed, radius: 12)
+                                .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
                                 .contentTransition(.numericText())
                         }
                     }
