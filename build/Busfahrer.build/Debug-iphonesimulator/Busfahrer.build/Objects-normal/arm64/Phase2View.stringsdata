@@ -1,0 +1,64 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/Phase2View.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Phase 2 – Die Pyramide",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 9
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tippe auf eine Karte",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reihe %lld – %lld Schlücke",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiter",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "· %lld Karten",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 127
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/PyramidGridView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Reihe %lld · %lld Schlücke",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Karte %lld in Reihe %lld",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 39
+        }
+      }
+    ]
+  },
+  "version": 1
+}

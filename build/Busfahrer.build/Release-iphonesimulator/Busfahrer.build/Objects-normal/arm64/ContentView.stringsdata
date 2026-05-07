@@ -1,0 +1,64 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Menü",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spiel beenden?",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Der aktuelle Spielfortschritt geht verloren.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Zum Hauptmenü",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abbrechen",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiterspielen",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Zurück zum Hauptmenü",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 159
+        }
+      }
+    ]
+  },
+  "version": 1
+}

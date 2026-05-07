@@ -1,0 +1,96 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/GameEndView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "🎉",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spiel vorbei!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ hat die Busfahrt überstanden!",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spieler",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Getrunken",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Verteilt",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Neues Spiel",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Neue Spieler",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Beenden",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 119
+        }
+      }
+    ]
+  },
+  "version": 1
+}

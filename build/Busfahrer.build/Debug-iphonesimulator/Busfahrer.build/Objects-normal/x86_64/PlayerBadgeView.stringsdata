@@ -1,0 +1,24 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/PlayerBadgeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 32
+        }
+      }
+    ]
+  },
+  "version": 1
+}

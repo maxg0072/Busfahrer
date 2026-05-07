@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "color-palette": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "computedHash": "8f2df57d728683e7389e5867e1dee1a1155991f06645d1866eb11ca69cfc9fe0"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "6412eb4eb3b91595ebab937f0c69501240e7ba761b3d82510b5cf506ec5c7adc"
+    },
+    "gaming-entertainment": {
+      "source": "dylantarre/animation-principles",
+      "sourceType": "github",
+      "computedHash": "1fb9505fde5cfc78924de3591410375f6dae653f7e2a931aba06f0a3683a34ef"
+    },
+    "ios-ux-design": {
+      "source": "mosif16/codex-skills",
+      "sourceType": "github",
+      "computedHash": "d02704ecac81673b5e1661aae733f6e4f7c79b73513aaefcb5d6de33fbdb16f5"
+    },
+    "swift-concurrency": {
+      "source": "avdlee/swift-concurrency-agent-skill",
+      "sourceType": "github",
+      "computedHash": "f799ff819d9d6a1ccef7db0d6cd3d06dbbf7c2c6c514c39b8485d94b31cc251c"
+    },
+    "swiftui-animation": {
+      "source": "jamesrochabrun/skills",
+      "sourceType": "github",
+      "computedHash": "39bffed75485bdf27dfa3dd704d6e98998e998d0134152d80853ff2713d89dac"
+    },
+    "swiftui-expert-skill": {
+      "source": "avdlee/swiftui-agent-skill",
+      "sourceType": "github",
+      "computedHash": "5ee32d89fc40a72d38372b1950eb211077e067a52eecdf479018903425574144"
+    },
+    "swiftui-performance-audit": {
+      "source": "dimillian/skills",
+      "sourceType": "github",
+      "computedHash": "0c4029813d8085be2337ddef76cfa8b932b9c33a95f1a592e5e1926054ffc319"
+    }
+  }
+}

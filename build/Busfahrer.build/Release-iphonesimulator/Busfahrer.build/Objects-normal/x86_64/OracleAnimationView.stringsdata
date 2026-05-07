@@ -1,0 +1,32 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/OracleAnimationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Das Orakel entscheidet...",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gleichstand! Wer wird Busfahrer?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Karten",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 44
+        }
+      }
+    ]
+  },
+  "version": 1
+}

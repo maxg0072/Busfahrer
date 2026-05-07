@@ -1,0 +1,16 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/PhaseTransitionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Los geht's!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 41
+        }
+      }
+    ]
+  },
+  "version": 1
+}

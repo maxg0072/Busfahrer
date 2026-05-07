@@ -1,0 +1,278 @@
+{
+  "" : {
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Busfahrer-master.dia",
+    "emit-module-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Busfahrer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Busfahrer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Busfahrer-master.swiftdeps"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/BusfahrerApp.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusfahrerApp~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/ContentView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Models/Card.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Card~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Models/Deck.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Deck~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Models/GamePhase.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GamePhase~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Models/Player.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Player~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Utilities/HapticManager.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/HapticManager~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Utilities/Theme.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Theme~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/ViewModels/GameViewModel.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameViewModel~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/CardView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/ConfettiView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/ConfettiView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/OracleAnimationView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/OracleAnimationView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/PhaseTransitionView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PhaseTransitionView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Components/PlayerBadgeView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerBadgeView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/GameEndView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/GameEndView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase1/CardGuessView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardGuessView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase1/Phase1View.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase1View~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/BusDriverRevealView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/BusDriverRevealView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/CardDiscardView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/CardDiscardView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/Phase2View.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase2View~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/PyramidGridView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PyramidGridView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase3/Phase3View.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/Phase3View~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/PlayerSetupView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/PlayerSetupView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/RulesView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/RulesView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/SipDistributionView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/SipDistributionView~partial.swiftmodule"
+  },
+  "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/StartView.swift" : {
+    "const-values" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.swiftconstvalues",
+    "dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.d",
+    "diagnostics" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.dia",
+    "index-unit-output-path" : "/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.o",
+    "llvm-bc" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.bc",
+    "object" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.o",
+    "swift-dependencies" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView.swiftdeps",
+    "swiftmodule" : "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/arm64/StartView~partial.swiftmodule"
+  }
+}

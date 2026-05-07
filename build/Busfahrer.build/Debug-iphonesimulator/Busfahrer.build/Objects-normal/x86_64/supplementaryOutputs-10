@@ -1,0 +1,18 @@
+"/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/BusDriverRevealView.swift":
+  swift-dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/BusDriverRevealView.swiftdeps"
+  const-values: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/BusDriverRevealView.swiftconstvalues"
+  dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/BusDriverRevealView.d"
+  object: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/BusDriverRevealView.o"
+  diagnostics: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/BusDriverRevealView.dia"
+"/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase1/CardGuessView.swift":
+  dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/CardGuessView.d"
+  object: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/CardGuessView.o"
+  swift-dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/CardGuessView.swiftdeps"
+  diagnostics: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/CardGuessView.dia"
+  const-values: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/CardGuessView.swiftconstvalues"
+"/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase1/Phase1View.swift":
+  diagnostics: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/Phase1View.dia"
+  swift-dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/Phase1View.swiftdeps"
+  object: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/Phase1View.o"
+  const-values: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/Phase1View.swiftconstvalues"
+  dependencies: "/Users/max/Desktop/Cursor/Busfahrer/build/Busfahrer.build/Debug-iphonesimulator/Busfahrer.build/Objects-normal/x86_64/Phase1View.d"

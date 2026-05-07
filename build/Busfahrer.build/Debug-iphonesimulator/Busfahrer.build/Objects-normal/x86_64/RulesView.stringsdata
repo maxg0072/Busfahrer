@@ -1,0 +1,16 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/RulesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Spielregeln",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 13
+        }
+      }
+    ]
+  },
+  "version": 1
+}

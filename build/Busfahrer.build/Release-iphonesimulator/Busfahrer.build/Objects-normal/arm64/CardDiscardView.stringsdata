@@ -1,0 +1,48 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/CardDiscardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Aufgedeckt: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reihe %lld · %lld Schlücke",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Möchtest du deine %@ ablegen?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nein",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ja, ablegen!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 73
+        }
+      }
+    ]
+  },
+  "version": 1
+}

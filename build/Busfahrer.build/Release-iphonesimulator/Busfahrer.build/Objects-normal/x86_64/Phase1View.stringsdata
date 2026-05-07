@@ -1,0 +1,56 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase1/Phase1View.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Phase 1 – Kartenraten",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Richtig!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Falsch!",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ darf %lld Schluck%@ verteilen!",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ trinkt %lld Schluck%@!",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiter",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 83
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/SipDistributionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "trinkt %lld Schluck%@!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "von %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiter",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "An wen?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "verteilt %lld Schluck%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Wie viele Schlücke für %@?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "verteilt %lld Schluck%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "Zurück",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 150
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,112 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase3/Phase3View.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Aktuelle Karten",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "🚌",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ fährt Bus",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Versuch %lld",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Schlücke",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Schluck%@ trinken! Zurück zu Runde 1.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Geschafft! Die Busfahrt ist vorbei!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiter zu Runde %lld!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Richtig!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "Falsch!",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weiter",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 199
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/PlayerSetupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Spieler hinzufügen",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/8 Spieler",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name eingeben",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mindestens 2 Spieler benötigt",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spiel starten",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 102
+        }
+      }
+    ]
+  },
+  "version": 1
+}

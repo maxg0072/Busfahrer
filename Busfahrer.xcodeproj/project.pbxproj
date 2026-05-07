@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DDB116176B41C7A07B09FB /* PlayerBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73C4CA707C4CE9A9ED5D6F /* PlayerBadgeView.swift */; };
+		1A2B3C4D5E6F7A8B9C0D1E2F /* AnimatedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF66 /* AnimatedBackgroundView.swift */; };
+		1BDC7749094B4479A69AA6CA /* Phase1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656A9E9AB19456C8A121CE3 /* Phase1View.swift */; };
+		23D37432E9284D5293FA8EA1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB2A55E929A4F5880888899 /* Theme.swift */; };
+		24563DF652F44AA9BC9040EB /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A6B7A465CD4035BB2618AA /* Deck.swift */; };
+		28A9F8A0A15C0C9FF92B973A /* PferderennenRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031BA599F678373A10C1681 /* PferderennenRaceView.swift */; };
+		2B3C4D5E6F7A8B9C0D1E2F3A /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22CC33DD44EE55FF66AA11 /* GlassCard.swift */; };
+		2D66229A3CA10AD60DADBE6B /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297FAA8FC6B4B850460E1BD3 /* GameType.swift */; };
+		374FAE4A60C54BCD914AF9FC /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9DE38520C64C05B64A15CD /* HapticManager.swift */; };
+		3C4D5E6F7A8B9C0D1E2F3A4B /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC33DD44EE55FF66AA11BB22 /* ShakeEffect.swift */; };
+		40DED8FE192640B49D74C853 /* PlayerSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F42CA71DF6451D8B59583F /* PlayerSetupView.swift */; };
+		4456DAC655D5A70445021872 /* PferderennenBettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BB67D340BFF8760B13B4C /* PferderennenBettingView.swift */; };
+		47CDD47EFC114367963225AD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4682E6E4FDD4489A8222B469 /* Card.swift */; };
+		481C1A4C2F154C5DB70C264F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E2F142A04D64A9869ED5 /* Player.swift */; };
+		4C65BD0FBB794ED296AA355A /* GamePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC71AF61DD41899DD829EB /* GamePhase.swift */; };
+		4D5E6F7A8B9C0D1E2F3A4B5C /* SparkleEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44EE55FF66AA11BB22CC33 /* SparkleEffectView.swift */; };
+		4D791201ABEB4360A309CBC2 /* OracleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4167FC12114B43B6F1C719 /* OracleAnimationView.swift */; };
+		5E6F7A8B9C0D1E2F3A4B5C6D /* GlowingBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55FF66AA11BB22CC33DD44 /* GlowingBorder.swift */; };
+		64BAFC8D64C2403A9F43F3DD /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C386A427CCF44E7B17B76AD /* ConfettiView.swift */; };
+		682DC682A0CD45FBA2462270 /* Phase2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AD895DEA1440A69B807D23 /* Phase2View.swift */; };
+		6F018FD9B0B0412BA562C41E /* PhaseTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC2FE53DC841F38D451F61 /* PhaseTransitionView.swift */; };
+		6F7A8B9C0D1E2F3A4B5C6D7E /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF66AA11BB22CC33DD44EE55 /* ShimmerEffect.swift */; };
+		76480F314E12476C86958D77 /* BusDriverRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E6AD17ABA4EAB8D372DDF /* BusDriverRevealView.swift */; };
+		7A8B9C0D1E2F3A4B5C6D7E8F /* NeonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7B8C9D0E1F2 /* NeonText.swift */; };
+		84D7BB5C37E24472A8457C3D /* BusfahrerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7386B910CA34E35A0DF1530 /* BusfahrerApp.swift */; };
+		9800443A50734810B9922C25 /* CardDiscardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B3985B4374B6E8D45B605 /* CardDiscardView.swift */; };
+		9A20DDDF52C31012FED74663 /* PferderennenSipDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8F51222631AB551869E39 /* PferderennenSipDistributionView.swift */; };
+		9EFED5DABBB64A4096D608E9 /* CardGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7004775B53894BD6AE271408 /* CardGuessView.swift */; };
+		A97F4DB8B000426D8DA5349F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA34A0952146BCA44A10F2 /* ContentView.swift */; };
+		AFA92E1643BD44BA93F67775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32F75ED89EA460DA2C5AF1C /* Assets.xcassets */; };
+		B096C3DD074C4BCBBB88A894 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A45CC3664250A250580C /* CardView.swift */; };
+		BB0011223344556677889900 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0011223344556677889900 /* AppLanguage.swift */; };
+		BB1122334455667788990011 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1122334455667788990011 /* LanguageManager.swift */; };
+		BB2233445566778899001122 /* GuessKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2233445566778899001122 /* GuessKey.swift */; };
+		BB3344556677889900112233 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3344556677889900112233 /* Strings.swift */; };
+		CC4455667788990011223344 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5566778899001122334455 /* HomeView.swift */; };
+		D09789A43BB84B6486B26665 /* PyramidGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C7513B1CEF47F481BB57BD /* PyramidGridView.swift */; };
+		D6EC1EF78DFD46CDBF4CCF84 /* Phase3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54917D8E48472BB0E11F58 /* Phase3View.swift */; };
+		DA0FBB4A6D73105B8772339E /* PferderennenResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB404B2694DB645CFAF3301 /* PferderennenResultView.swift */; };
+		DD80547AAD854055A679D857 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30032EE174A64F7FA9EB97E1 /* StartView.swift */; };
+		DE6617BD73C9478FB45711B5 /* GameEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4203DBF14AB04ABF8C7AFBD2 /* GameEndView.swift */; };
+		E6E3324BECC6420CA659DB35 /* SipDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26EA00F5C16464CB58DA15B /* SipDistributionView.swift */; };
+		ED2F76687DCD4B2DB8AAA8CB /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA2E00B82C4A5C8F183664 /* GameViewModel.swift */; };
+		EE6677889900112233445566 /* CircleIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7788990011223344556677 /* CircleIconButton.swift */; };
+		F1DC2376149E4759AD3C6F0E /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DC315490A469285E06EAA /* RulesView.swift */; };
+		F3C7FDD4E142BC32698DF394 /* KingsCupGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36B1806E6B5E076661E8FB /* KingsCupGameView.swift */; };
+		197AC5AC26294D730E62A775 /* KingsCupGameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C968E73EC543A3A4733D502 /* KingsCupGameOverView.swift */; };
+		7D5E4C4C6EC672A1E7098D5D /* KingsCupRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE40F8D6AC07A5B1A1E307 /* KingsCupRulesView.swift */; };
+		66ABBD3251C8A06E13B4D8FD /* FTDGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D6C0301549FB0EDAD369C /* FTDGameView.swift */; };
+		574D3B32449BF1694B169D6F /* FTDGameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52760D26D314203B018E225D /* FTDGameOverView.swift */; };
+		7A7A4E18E6A0816573B3F37A /* FTDRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C854BA5FC14312296AC37DA2 /* FTDRulesView.swift */; };
+		A1A2A3A4A5A6A7A8A9B0B1B2 /* EmojiExplosionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2C3C4C5C6C7C8C9D0D1D2 /* EmojiExplosionView.swift */; };
+		B2B3B4B5B6B7B8B9C0C1C2C3 /* StreakBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3D4D5D6D7D8D9E0E1E2E3 /* StreakBannerView.swift */; };
+		C3C4C5C6C7C8C9D0D1D2D3D4 /* TensionRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E4E5E6E7E8E9F0F1F2F3F4 /* TensionRingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0031BA599F678373A10C1681 /* PferderennenRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PferderennenRaceView.swift; sourceTree = "<group>"; };
+		1CE7825F88A84FAA9EF5E558 /* Busfahrer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Busfahrer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AD895DEA1440A69B807D23 /* Phase2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase2View.swift; sourceTree = "<group>"; };
+		297FAA8FC6B4B850460E1BD3 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		2C386A427CCF44E7B17B76AD /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		30032EE174A64F7FA9EB97E1 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		3656A9E9AB19456C8A121CE3 /* Phase1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1View.swift; sourceTree = "<group>"; };
+		3AB2A55E929A4F5880888899 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4203DBF14AB04ABF8C7AFBD2 /* GameEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndView.swift; sourceTree = "<group>"; };
+		444E6AD17ABA4EAB8D372DDF /* BusDriverRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDriverRevealView.swift; sourceTree = "<group>"; };
+		4682E6E4FDD4489A8222B469 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		499BB67D340BFF8760B13B4C /* PferderennenBettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PferderennenBettingView.swift; sourceTree = "<group>"; };
+		4F8DC315490A469285E06EAA /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		55A6B7A465CD4035BB2618AA /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		7004775B53894BD6AE271408 /* CardGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGuessView.swift; sourceTree = "<group>"; };
+		77AA2E00B82C4A5C8F183664 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7F4167FC12114B43B6F1C719 /* OracleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleAnimationView.swift; sourceTree = "<group>"; };
+		82C8F51222631AB551869E39 /* PferderennenSipDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PferderennenSipDistributionView.swift; sourceTree = "<group>"; };
+		91FC71AF61DD41899DD829EB /* GamePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePhase.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* NeonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonText.swift; sourceTree = "<group>"; };
+		A7386B910CA34E35A0DF1530 /* BusfahrerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusfahrerApp.swift; sourceTree = "<group>"; };
+		AA0011223344556677889900 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		AA1122334455667788990011 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF66 /* AnimatedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundView.swift; sourceTree = "<group>"; };
+		AA2233445566778899001122 /* GuessKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessKey.swift; sourceTree = "<group>"; };
+		AA3344556677889900112233 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BB22CC33DD44EE55FF66AA11 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		BF9DE38520C64C05B64A15CD /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		BFF8A45CC3664250A250580C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C8DC2FE53DC841F38D451F61 /* PhaseTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseTransitionView.swift; sourceTree = "<group>"; };
+		CAB404B2694DB645CFAF3301 /* PferderennenResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PferderennenResultView.swift; sourceTree = "<group>"; };
+		CC33DD44EE55FF66AA11BB22 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		D26EA00F5C16464CB58DA15B /* SipDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SipDistributionView.swift; sourceTree = "<group>"; };
+		D38B3985B4374B6E8D45B605 /* CardDiscardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDiscardView.swift; sourceTree = "<group>"; };
+		DA15E2F142A04D64A9869ED5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DD44EE55FF66AA11BB22CC33 /* SparkleEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleEffectView.swift; sourceTree = "<group>"; };
+		DD54917D8E48472BB0E11F58 /* Phase3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase3View.swift; sourceTree = "<group>"; };
+		DD5566778899001122334455 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E0BA34A0952146BCA44A10F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5C7513B1CEF47F481BB57BD /* PyramidGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidGridView.swift; sourceTree = "<group>"; };
+		EE55FF66AA11BB22CC33DD44 /* GlowingBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingBorder.swift; sourceTree = "<group>"; };
+		F32F75ED89EA460DA2C5AF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F42CA71DF6451D8B59583F /* PlayerSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetupView.swift; sourceTree = "<group>"; };
+		FE73C4CA707C4CE9A9ED5D6F /* PlayerBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBadgeView.swift; sourceTree = "<group>"; };
+		FF66AA11BB22CC33DD44EE55 /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
+		FF7788990011223344556677 /* CircleIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconButton.swift; sourceTree = "<group>"; };
+		7B36B1806E6B5E076661E8FB /* KingsCupGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupGameView.swift; sourceTree = "<group>"; };
+		3C968E73EC543A3A4733D502 /* KingsCupGameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupGameOverView.swift; sourceTree = "<group>"; };
+		DAAE40F8D6AC07A5B1A1E307 /* KingsCupRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCupRulesView.swift; sourceTree = "<group>"; };
+		387D6C0301549FB0EDAD369C /* FTDGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTDGameView.swift; sourceTree = "<group>"; };
+		52760D26D314203B018E225D /* FTDGameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTDGameOverView.swift; sourceTree = "<group>"; };
+		C854BA5FC14312296AC37DA2 /* FTDRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTDRulesView.swift; sourceTree = "<group>"; };
+		C1C2C3C4C5C6C7C8C9D0D1D2 /* EmojiExplosionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiExplosionView.swift; sourceTree = "<group>"; };
+		D2D3D4D5D6D7D8D9E0E1E2E3 /* StreakBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakBannerView.swift; sourceTree = "<group>"; };
+		E3E4E5E6E7E8E9F0F1F2F3F4 /* TensionRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensionRingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D6240011624C6BA2855F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E46BB19AC145CDA02270E7 /* Phase2 */ = {
+			isa = PBXGroup;
+			children = (
+				444E6AD17ABA4EAB8D372DDF /* BusDriverRevealView.swift */,
+				D38B3985B4374B6E8D45B605 /* CardDiscardView.swift */,
+				24AD895DEA1440A69B807D23 /* Phase2View.swift */,
+				E5C7513B1CEF47F481BB57BD /* PyramidGridView.swift */,
+			);
+			path = Phase2;
+			sourceTree = "<group>";
+		};
+		588D297EC5B3441BA5AA7CF6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA11BB22CC33DD44EE55FF66 /* AnimatedBackgroundView.swift */,
+				BFF8A45CC3664250A250580C /* CardView.swift */,
+				2C386A427CCF44E7B17B76AD /* ConfettiView.swift */,
+				C1C2C3C4C5C6C7C8C9D0D1D2 /* EmojiExplosionView.swift */,
+				BB22CC33DD44EE55FF66AA11 /* GlassCard.swift */,
+				EE55FF66AA11BB22CC33DD44 /* GlowingBorder.swift */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* NeonText.swift */,
+				7F4167FC12114B43B6F1C719 /* OracleAnimationView.swift */,
+				C8DC2FE53DC841F38D451F61 /* PhaseTransitionView.swift */,
+				FE73C4CA707C4CE9A9ED5D6F /* PlayerBadgeView.swift */,
+				CC33DD44EE55FF66AA11BB22 /* ShakeEffect.swift */,
+				FF66AA11BB22CC33DD44EE55 /* ShimmerEffect.swift */,
+				DD44EE55FF66AA11BB22CC33 /* SparkleEffectView.swift */,
+				D2D3D4D5D6D7D8D9E0E1E2E3 /* StreakBannerView.swift */,
+				E3E4E5E6E7E8E9F0F1F2F3F4 /* TensionRingView.swift */,
+				FF7788990011223344556677 /* CircleIconButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5D001324321F4EBA89A8D77D /* Busfahrer */ = {
+			isa = PBXGroup;
+			children = (
+				A7386B910CA34E35A0DF1530 /* BusfahrerApp.swift */,
+				E0BA34A0952146BCA44A10F2 /* ContentView.swift */,
+				9A3F5573E7674631BA76F200 /* Models */,
+				BE873E6A7AA044B6953ED9DB /* ViewModels */,
+				D60910C1CA2C4E48A05A9E9C /* Views */,
+				890E39A795134512848B1745 /* Utilities */,
+				F32F75ED89EA460DA2C5AF1C /* Assets.xcassets */,
+			);
+			path = Busfahrer;
+			sourceTree = "<group>";
+		};
+		6D8CD91A6FE81B3D2D25893D /* Pferderennen */ = {
+			isa = PBXGroup;
+			children = (
+				82C8F51222631AB551869E39 /* PferderennenSipDistributionView.swift */,
+				CAB404B2694DB645CFAF3301 /* PferderennenResultView.swift */,
+				0031BA599F678373A10C1681 /* PferderennenRaceView.swift */,
+				499BB67D340BFF8760B13B4C /* PferderennenBettingView.swift */,
+			);
+			path = Pferderennen;
+			sourceTree = "<group>";
+		};
+		890E39A795134512848B1745 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DE38520C64C05B64A15CD /* HapticManager.swift */,
+				AA3344556677889900112233 /* Strings.swift */,
+				3AB2A55E929A4F5880888899 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9A3F5573E7674631BA76F200 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				297FAA8FC6B4B850460E1BD3 /* GameType.swift */,
+				AA0011223344556677889900 /* AppLanguage.swift */,
+				4682E6E4FDD4489A8222B469 /* Card.swift */,
+				55A6B7A465CD4035BB2618AA /* Deck.swift */,
+				91FC71AF61DD41899DD829EB /* GamePhase.swift */,
+				AA2233445566778899001122 /* GuessKey.swift */,
+				AA1122334455667788990011 /* LanguageManager.swift */,
+				DA15E2F142A04D64A9869ED5 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B346DA1E46CD40A69AE78226 /* Phase1 */ = {
+			isa = PBXGroup;
+			children = (
+				7004775B53894BD6AE271408 /* CardGuessView.swift */,
+				3656A9E9AB19456C8A121CE3 /* Phase1View.swift */,
+			);
+			path = Phase1;
+			sourceTree = "<group>";
+		};
+		BE873E6A7AA044B6953ED9DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				77AA2E00B82C4A5C8F183664 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D60910C1CA2C4E48A05A9E9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEFFC7C1C550D5CE03944 /* FckTheDealer */,
+				CFBFB190D7D4BA7BD2917D9A /* KingsCup */,
+				6D8CD91A6FE81B3D2D25893D /* Pferderennen */,
+				4203DBF14AB04ABF8C7AFBD2 /* GameEndView.swift */,
+				F8F42CA71DF6451D8B59583F /* PlayerSetupView.swift */,
+				4F8DC315490A469285E06EAA /* RulesView.swift */,
+				D26EA00F5C16464CB58DA15B /* SipDistributionView.swift */,
+				30032EE174A64F7FA9EB97E1 /* StartView.swift */,
+				DD5566778899001122334455 /* HomeView.swift */,
+				588D297EC5B3441BA5AA7CF6 /* Components */,
+				B346DA1E46CD40A69AE78226 /* Phase1 */,
+				28E46BB19AC145CDA02270E7 /* Phase2 */,
+				ED2CECCE2EAB4054B983A821 /* Phase3 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED2CECCE2EAB4054B983A821 /* Phase3 */ = {
+			isa = PBXGroup;
+			children = (
+				DD54917D8E48472BB0E11F58 /* Phase3View.swift */,
+			);
+			path = Phase3;
+			sourceTree = "<group>";
+		};
+		F6CEA5577B914AFEBA1A253C = {
+			isa = PBXGroup;
+			children = (
+				5D001324321F4EBA89A8D77D /* Busfahrer */,
+				FB7B9DE1F4C14AB6BB49D0B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7B9DE1F4C14AB6BB49D0B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE7825F88A84FAA9EF5E558 /* Busfahrer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBFB190D7D4BA7BD2917D9A /* KingsCup */ = {
+			isa = PBXGroup;
+			children = (
+				DAAE40F8D6AC07A5B1A1E307 /* KingsCupRulesView.swift */,
+				3C968E73EC543A3A4733D502 /* KingsCupGameOverView.swift */,
+				7B36B1806E6B5E076661E8FB /* KingsCupGameView.swift */,
+			);
+			path = KingsCup;
+			sourceTree = "<group>";
+		};
+		6E6FEFFC7C1C550D5CE03944 /* FckTheDealer */ = {
+			isa = PBXGroup;
+			children = (
+				C854BA5FC14312296AC37DA2 /* FTDRulesView.swift */,
+				52760D26D314203B018E225D /* FTDGameOverView.swift */,
+				387D6C0301549FB0EDAD369C /* FTDGameView.swift */,
+			);
+			path = FckTheDealer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AB0CFE9215431C9E0F33B5 /* Busfahrer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3C3DDC04F24156B54148D2 /* Build configuration list for PBXNativeTarget "Busfahrer" */;
+			buildPhases = (
+				88C780892D7D4E0AA4476DA3 /* Sources */,
+				D0D6240011624C6BA2855F97 /* Frameworks */,
+				C29510FF349E4E92A6FC1C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Busfahrer;
+			productName = Busfahrer;
+			productReference = 1CE7825F88A84FAA9EF5E558 /* Busfahrer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDA2B2F7BC14D1599EA73FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2630;
+			};
+			buildConfigurationList = 8F52B64595804974BE9DE342 /* Build configuration list for PBXProject "Busfahrer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				Base,
+			);
+			mainGroup = F6CEA5577B914AFEBA1A253C;
+			productRefGroup = FB7B9DE1F4C14AB6BB49D0B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AB0CFE9215431C9E0F33B5 /* Busfahrer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29510FF349E4E92A6FC1C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA92E1643BD44BA93F67775 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C780892D7D4E0AA4476DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7BB5C37E24472A8457C3D /* BusfahrerApp.swift in Sources */,
+				A97F4DB8B000426D8DA5349F /* ContentView.swift in Sources */,
+				47CDD47EFC114367963225AD /* Card.swift in Sources */,
+				24563DF652F44AA9BC9040EB /* Deck.swift in Sources */,
+				4C65BD0FBB794ED296AA355A /* GamePhase.swift in Sources */,
+				481C1A4C2F154C5DB70C264F /* Player.swift in Sources */,
+				374FAE4A60C54BCD914AF9FC /* HapticManager.swift in Sources */,
+				23D37432E9284D5293FA8EA1 /* Theme.swift in Sources */,
+				ED2F76687DCD4B2DB8AAA8CB /* GameViewModel.swift in Sources */,
+				B096C3DD074C4BCBBB88A894 /* CardView.swift in Sources */,
+				64BAFC8D64C2403A9F43F3DD /* ConfettiView.swift in Sources */,
+				4D791201ABEB4360A309CBC2 /* OracleAnimationView.swift in Sources */,
+				6F018FD9B0B0412BA562C41E /* PhaseTransitionView.swift in Sources */,
+				04DDB116176B41C7A07B09FB /* PlayerBadgeView.swift in Sources */,
+				DE6617BD73C9478FB45711B5 /* GameEndView.swift in Sources */,
+				9EFED5DABBB64A4096D608E9 /* CardGuessView.swift in Sources */,
+				1BDC7749094B4479A69AA6CA /* Phase1View.swift in Sources */,
+				76480F314E12476C86958D77 /* BusDriverRevealView.swift in Sources */,
+				9800443A50734810B9922C25 /* CardDiscardView.swift in Sources */,
+				682DC682A0CD45FBA2462270 /* Phase2View.swift in Sources */,
+				D09789A43BB84B6486B26665 /* PyramidGridView.swift in Sources */,
+				D6EC1EF78DFD46CDBF4CCF84 /* Phase3View.swift in Sources */,
+				40DED8FE192640B49D74C853 /* PlayerSetupView.swift in Sources */,
+				F1DC2376149E4759AD3C6F0E /* RulesView.swift in Sources */,
+				E6E3324BECC6420CA659DB35 /* SipDistributionView.swift in Sources */,
+				DD80547AAD854055A679D857 /* StartView.swift in Sources */,
+				CC4455667788990011223344 /* HomeView.swift in Sources */,
+				EE6677889900112233445566 /* CircleIconButton.swift in Sources */,
+				1A2B3C4D5E6F7A8B9C0D1E2F /* AnimatedBackgroundView.swift in Sources */,
+				2B3C4D5E6F7A8B9C0D1E2F3A /* GlassCard.swift in Sources */,
+				3C4D5E6F7A8B9C0D1E2F3A4B /* ShakeEffect.swift in Sources */,
+				4D5E6F7A8B9C0D1E2F3A4B5C /* SparkleEffectView.swift in Sources */,
+				5E6F7A8B9C0D1E2F3A4B5C6D /* GlowingBorder.swift in Sources */,
+				6F7A8B9C0D1E2F3A4B5C6D7E /* ShimmerEffect.swift in Sources */,
+				7A8B9C0D1E2F3A4B5C6D7E8F /* NeonText.swift in Sources */,
+				BB0011223344556677889900 /* AppLanguage.swift in Sources */,
+				BB1122334455667788990011 /* LanguageManager.swift in Sources */,
+				BB2233445566778899001122 /* GuessKey.swift in Sources */,
+				BB3344556677889900112233 /* Strings.swift in Sources */,
+				2D66229A3CA10AD60DADBE6B /* GameType.swift in Sources */,
+				4456DAC655D5A70445021872 /* PferderennenBettingView.swift in Sources */,
+				28A9F8A0A15C0C9FF92B973A /* PferderennenRaceView.swift in Sources */,
+				DA0FBB4A6D73105B8772339E /* PferderennenResultView.swift in Sources */,
+				9A20DDDF52C31012FED74663 /* PferderennenSipDistributionView.swift in Sources */,
+			
+				F3C7FDD4E142BC32698DF394 /* KingsCupGameView.swift in Sources */,
+				197AC5AC26294D730E62A775 /* KingsCupGameOverView.swift in Sources */,
+				7D5E4C4C6EC672A1E7098D5D /* KingsCupRulesView.swift in Sources */,
+				66ABBD3251C8A06E13B4D8FD /* FTDGameView.swift in Sources */,
+				574D3B32449BF1694B169D6F /* FTDGameOverView.swift in Sources */,
+				7A7A4E18E6A0816573B3F37A /* FTDRulesView.swift in Sources */,
+				A1A2A3A4A5A6A7A8A9B0B1B2 /* EmojiExplosionView.swift in Sources */,
+				B2B3B4B5B6B7B8B9C0C1C2C3 /* StreakBannerView.swift in Sources */,
+				C3C4C5C6C7C8C9D0D1D2D3D4 /* TensionRingView.swift in Sources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06AA5183A1D64D1D832B2EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSTCOMPILER_FLAGS = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075CFEE81EA7419DB1E3219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSTCOMPILER_FLAGS = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A69BB2FFF744259BF225AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AL4M97ZNW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Busfahrer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busfahrer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAE8D658629346C5A5B2216A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AL4M97ZNW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Busfahrer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busfahrer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B3C3DDC04F24156B54148D2 /* Build configuration list for PBXNativeTarget "Busfahrer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A69BB2FFF744259BF225AD9 /* Debug */,
+				FAE8D658629346C5A5B2216A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52B64595804974BE9DE342 /* Build configuration list for PBXProject "Busfahrer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AA5183A1D64D1D832B2EF3 /* Debug */,
+				075CFEE81EA7419DB1E3219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDA2B2F7BC14D1599EA73FE /* Project object */;
+}

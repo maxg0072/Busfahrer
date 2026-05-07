@@ -1,0 +1,48 @@
+{
+  "source": "/Users/max/Desktop/Cursor/Busfahrer/Busfahrer/Views/Phase2/BusDriverRevealView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "🚌",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "ist der Busfahrer!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Karten",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Busfahrt starten",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 73
+        }
+      }
+    ]
+  },
+  "version": 1
+}
