@@ -9,9 +9,9 @@ struct Phase1View: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // Header with round info
+            // Header with round info (below in-game header bar)
             phase1Header
-                .padding(.top, 12)
+                .padding(.top, 52)
 
             Spacer()
 

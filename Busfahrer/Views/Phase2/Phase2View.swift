@@ -9,7 +9,7 @@ struct Phase2View: View {
             Text(Strings.phase2.header)
                 .font(Theme.captionFont)
                 .foregroundStyle(.white.opacity(0.75))
-                .padding(.top, 12)
+                .padding(.top, 52)
 
             switch game.phase {
             case .phase2Setup:

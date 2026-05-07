@@ -31,7 +31,7 @@ struct Phase3View: View {
             VStack(spacing: 0) {
                 // Header
                 phase3Header
-                    .padding(.top, 12)
+                    .padding(.top, 52)
 
                 Spacer()
 
